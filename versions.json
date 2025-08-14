@@ -473,6 +473,10 @@
       "levels"
     ],
     "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/latest"
+      }
     ]
   }
 ]
