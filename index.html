@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Version History</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Game Version History</h1>
+    <div class="controls">
+      <label class="sr-only" for="sortBy">Sort by</label>
+      <select id="sortBy" aria-label="Sort by">
+        <option value="build-asc">Build (oldest → newest)</option>
+        <option value="build-desc">Build (newest → oldest)</option>
+        <option value="semver-asc">Version (oldest → newest)</option>
+        <option value="semver-desc">Version (newest → oldest)</option>
+        <option value="date-asc">Date (oldest → newest)</option>
+        <option value="date-desc">Date (newest → oldest)</option>
+      </select>
+      <label class="sr-only" for="filter">Filter</label>
+      <input id="filter" type="search" placeholder="Filter notes, e.g. 'bug' or 'ui'…" aria-label="Filter notes" />
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="status" role="status" aria-live="polite"></div>
+
+    <div class="table-wrap">
+      <table id="versionsTable">
+        <thead>
+          <tr>
+            <th scope="col">Version</th>
+            <th scope="col">Date</th>
+            <th scope="col">Highlights</th>
+            <th scope="col">Links</th>
+          </tr>
+        </thead>
+        <tbody><!-- populated by app.js --></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
