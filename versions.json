@@ -519,9 +519,23 @@
       "levels"
     ],
     "links": [
+    ]
+  },
+  {
+    "version": "v0.2.1_02",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10505,
+    "changes": [
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.1_02"
+    ],
+    "links": [
       {
         "label": "JAR",
-        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.1"
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.1_02"
       }
     ]
   }
