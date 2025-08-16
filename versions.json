@@ -579,5 +579,31 @@
         "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.2_02"
       }
     ]
+  },
+  {
+    "version": "v0.2.2_03",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10513,
+    "changes": [
+      "made objective tiles visible",
+      "discovered issue regarding individual map tile defs - might fix"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.2_03",
+      "tiles",
+      "definitions",
+      "tiledefs",
+      "maps",
+      "levels",
+      "leveldefs"
+    ],
+    "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.2_03"
+      }
+    ]
   }
 ]
