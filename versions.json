@@ -502,5 +502,27 @@
         "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.0"
       }
     ]
+  },
+  {
+    "version": "v0.2.1",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10504,
+    "changes": [
+      "multiple objectives."
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.1",
+      "objectives",
+      "map",
+      "levels"
+    ],
+    "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.1"
+      }
+    ]
   }
 ]
