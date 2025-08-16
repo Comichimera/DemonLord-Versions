@@ -465,7 +465,7 @@
     ],
     "tags": [
       "pre-alpha",
-      "0.1.8",
+      "0.1.9",
       "code",
       "internal",
       "refactor",
@@ -476,6 +476,30 @@
       {
         "label": "JAR",
         "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/latest"
+      }
+    ]
+  },
+  {
+    "version": "v0.2.0",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10502,
+    "changes": [
+      "added reach-a-tile objectives."
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.0",
+      "objectives",
+      "map",
+      "refactor",
+      "overhaul",
+      "levels"
+    ],
+    "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.0"
       }
     ]
   }
