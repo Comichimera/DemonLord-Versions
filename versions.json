@@ -605,5 +605,50 @@
         "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.2_03"
       }
     ]
+  },
+  {
+    "version": "v0.2.3",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10523,
+    "changes": [
+      "centralized timer logic into TimerService",
+      "total timer resets when picking the starting level",
+      "total time now resets properly when starting over from the first level",
+      "Version rendered by its own class which had gone unused"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.3",
+      "refactor",
+      "version number",
+      "version",
+      "timer",
+      "ui",
+      "display",
+      "internal",
+      "code"
+    ],
+    "links": [
+    ]
+  },
+  {
+    "version": "v0.2.3_02",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10525,
+    "changes": [
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.3_02",
+      "reupload"
+    ],
+    "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.3_02"
+      }
+    ]
   }
 ]
