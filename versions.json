@@ -538,5 +538,48 @@
         "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.1_02"
       }
     ]
+  },
+  {
+    "version": "v0.2.2",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10509,
+    "changes": [
+      "added objectives complete overlay"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.2",
+      "overlay",
+      "objectives",
+      "timer"
+    ],
+    "links": [
+      {
+      }
+    ]
+  },
+  {
+    "version": "v0.2.2_02",
+    "date": "2025-08-16",
+    "channel": "pre-alpha",
+    "build": 10510,
+    "changes": [
+      "corrected second objective text"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.2_02",
+      "overlay",
+      "objectives",
+      "timer",
+      "hotfix"
+    ],
+    "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.2_02"
+      }
+    ]
   }
 ]
