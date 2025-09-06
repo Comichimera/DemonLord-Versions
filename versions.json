@@ -650,5 +650,96 @@
         "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.3_02"
       }
     ]
+  },
+  {
+    "version": "v0.2.4",
+    "date": "2025-08-27",
+    "channel": "pre-alpha",
+    "build": 10532,
+    "changes": [
+      "Added OS specific version labelling",
+      "fixed an issue making the game unplayable on Linux and MacOS"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.2.4",
+      "version",
+      "linux",
+      "macos",
+      "os x",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "JAR",
+        "url": "https://github.com/Comichimera/Demon_Lord/releases/tag/v0.2.4"
+      }
+    ]
+  },
+  {
+    "version": "v0.3.0",
+    "date": "2025-09-06",
+    "channel": "pre-alpha",
+    "build": 10532,
+    "changes": [
+      "added an experimental design for Enemies and Sprites",
+      "addded Zombie and Skeleton sprites"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.3.0",
+      "experimental",
+      "bugged",
+      "sprites",
+      "enemies",
+      "zombies",
+      "skeletons"
+    ],
+    "links": [
+    ]
+  },
+  {
+    "version": "v0.3.0_02",
+    "date": "2025-09-06",
+    "channel": "pre-alpha",
+    "build": 10536,
+    "changes": [
+      "fixed enemies not being rendered"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.3.0_02",
+      "experimental",
+      "patch",
+      "hotfix",
+      "enemies",
+      "rendering",
+      "internal"
+    ],
+    "links": [
+    ]
+  },
+  {
+    "version": "v0.3.0_02 re-upload",
+    "date": "2025-09-06",
+    "channel": "pre-alpha",
+    "build": 10542,
+    "changes": [
+      "fixed alpha transparency"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.3.0_02",
+      "experimental",
+      "patch",
+      "hotfix",
+      "enemies",
+      "rendering",
+      "internal",
+      "transparency",
+      "alpha rendering"
+    ],
+    "links": [
+    ]
   }
 ]
