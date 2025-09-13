@@ -680,7 +680,7 @@
     "version": "v0.3.0",
     "date": "2025-09-06",
     "channel": "pre-alpha",
-    "build": 10532,
+    "build": 10536,
     "changes": [
       "added an experimental design for Enemies and Sprites",
       "addded Zombie and Skeleton sprites"
@@ -702,7 +702,7 @@
     "version": "v0.3.0_02",
     "date": "2025-09-06",
     "channel": "pre-alpha",
-    "build": 10536,
+    "build": 10538,
     "changes": [
       "fixed enemies not being rendered"
     ],
@@ -738,6 +738,37 @@
       "internal",
       "transparency",
       "alpha rendering"
+    ],
+    "links": [
+    ]
+  },
+  {
+    "version": "v0.4.0",
+    "date": "2025-09-13",
+    "channel": "pre-alpha",
+    "build": 10679,
+    "changes": [
+      "New:",
+      " - Enemies now run behaviour trees authored in JSON. No code changes needed to create new behaviours (behaviors)",
+      " - Avaliable building blocks, Actions: move, look, scan, listen, wait. Conditions: playerVisible, heardNoiseWithin.",
+      " - Put BT JSONs on the classpath, (/data/ai/) and reference them from the map.",
+      " - Provide waypoint lists, enemies will patrol them, otherwise they wander.",
+      " - Better modding capabilities, as enemy types are now purely visual, behaviour is fully decoupled and swappable.",
+      "Removed:",
+      " - No more behaviour coded enemy classes to target, do not rely on Patroller/Sentry as behaviour types. Treat them as sprite keys only, or migrate to your own sprite names.",
+      " - turnRate on sentries is obsolete. Idle scanning is handled by behavior JSON"
+    ],
+    "tags": [
+      "pre-alpha",
+      "0.4.0",
+      "ai",
+      "mostly internal",
+      "modding",
+      "decoupling",
+      "enemeies",
+      "rendering",
+      "refactor",
+      "overhaul"
     ],
     "links": [
     ]
