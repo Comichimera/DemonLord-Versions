@@ -748,15 +748,11 @@
     "channel": "pre-alpha",
     "build": 10679,
     "changes": [
-      "New:",
-      " - Enemies now run behaviour trees authored in JSON. No code changes needed to create new behaviours (behaviors)",
-      " - Avaliable building blocks, Actions: move, look, scan, listen, wait. Conditions: playerVisible, heardNoiseWithin.",
-      " - Put BT JSONs on the classpath, (/data/ai/) and reference them from the map.",
-      " - Provide waypoint lists, enemies will patrol them, otherwise they wander.",
-      " - Better modding capabilities, as enemy types are now purely visual, behaviour is fully decoupled and swappable.",
-      "Removed:",
-      " - No more behaviour coded enemy classes to target, do not rely on Patroller/Sentry as behaviour types. Treat them as sprite keys only, or migrate to your own sprite names.",
-      " - turnRate on sentries is obsolete. Idle scanning is handled by behavior JSON"
+      "Enemies now run behaviour trees authored in JSON. No code changes needed to create new behaviours (behaviors)",
+      "Avaliable building blocks, Actions: move, look, scan, listen, wait. Conditions: playerVisible, heardNoiseWithin.",
+      "Put BT JSONs on the classpath, (/data/ai/) and reference them from the map.",
+      "Provide waypoint lists, enemies will patrol them, otherwise they wander.",
+      "Better modding capabilities, as enemy types are now purely visual, behaviour is fully decoupled and swappable."
     ],
     "tags": [
       "pre-alpha",
